@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Biscotti Brothers</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: "Oswald", sans-serif;
+        }
+
+        nav img {
+            width: 100px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 20%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            background-color: chocolate;
+            height: 100vh;
+        }
+
+        .hero-text {
+            color: white;
+            text-align: center;
+        }
+
+        .hero-text h2 {
+            font-family: "Luckiest Guy", cursive;
+            font-size: 4rem;
+        }
+
+        .hero-background {
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero {
+
+            background-image: url("https://assets.codepen.io/8798401/final_food.jpg");
+            height: 80%;
+        }
+
+        .story {
+            background-color: blanchedalmond;
+            padding: 25px;
+        }
+
+        .story p {
+            font-size: 0.9rem;
+            font-weight: 300;
+            border-top: 1px solid black;
+            padding-top: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .story-text {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 25px;
+        }
+
+        .footer-area {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        .day {
+            padding-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://assets.codepen.io/8798401/final_logo.png" alt="Logo">
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Reservation</a></li>
+                <li><a href="">Gift Cards</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-background">
+                <div class="hero-text">
+                    <h2>Biscotti Brothers</h2>
+                    <p>Pasta, Passion, and Plenty for Everyone!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="story">
+        <div class="story-text">
+            <h2>Our Story</h2>
+
+            <p>Biscotti Brothers began with two brothers, a family recipe book, and a dream to bring comforting Italian
+                meals to the neighborhood. Inspired by their Nonna's Sunday dinners, they opened their doors with one
+                goal: serve food that feels like home. Today, the scent of fresh garlic bread and simmering sauce still
+                welcomes every guest like famiglia.</p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-area">
+            <div class="hours">
+                <h2>Hours</h2>
+                <table>
+                    <tr>
+                        <td class="day">Monday</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Tuesday</td>
+                        <td>3:00 PM - 11:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Wednesday</td>
+                        <td>3:00 PM - 11:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Thursday</td>
+                        <td>3:00 PM - 11:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Friday</td>
+                        <td>3:00 PM - Midnight</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Saturday</td>
+                        <td>3:00 PM - Midnight</td>
+                    </tr>
+                    <tr>
+                        <td class="day">Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><a href="mailto:info@biscottibrothers.com">info@biscottibrothers.com</a></li>
+                    <li><a href="tel:3305555555">(330) 555-5555</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
